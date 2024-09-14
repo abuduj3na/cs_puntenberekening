@@ -12,7 +12,7 @@ namespace Les_2
         {
             // initialize variables - graded assignments 
             int currentAssignments = 5;
-            int sophiaAverage;
+            float sophiaAverage;
             float nicoAverage;
             float zahirahAverage;
             float jeongAverage;
@@ -42,7 +42,7 @@ namespace Les_2
             int jeong4 = 100;
             int jeong5 = 97;
 
-            sophiaAverage = (sophia1 + sophia2 + sophia3 + sophia4 + sophia5) / currentAssignments;
+            sophiaAverage = (float)(sophia1 + sophia2 + sophia3 + sophia4 + sophia5) / (float)currentAssignments;
             Console.WriteLine($"Sophia punten: {sophiaAverage}");
 
             nicoAverage = (float)(nicolas1 + nicolas2 + nicolas3 + nicolas4 + nicolas5) / (float)currentAssignments;
