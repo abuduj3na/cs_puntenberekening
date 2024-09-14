@@ -14,7 +14,7 @@ namespace Les_2
             int currentAssignments = 5;
             int sophiaAverage;
             int nicoAverage;
-            int zahirahAverage;
+            float zahirahAverage;
             float jeongAverage;
 
 
@@ -48,7 +48,7 @@ namespace Les_2
             nicoAverage = (nicolas1 + nicolas2 + nicolas3 + nicolas4 + nicolas5) / currentAssignments;
             Console.WriteLine($"Nicolas punten: {nicoAverage}");
 
-            zahirahAverage = (zahirah1 + zahirah2 + zahirah3 + zahirah4 + zahirah5) / currentAssignments;
+            zahirahAverage = (float)(zahirah1 + zahirah2 + zahirah3 + zahirah4 + zahirah5) / (float)currentAssignments;
             Console.WriteLine($"Zahirah punten: {zahirahAverage}");
 
             jeongAverage = (float)(jeong1 + jeong2 + jeong3 + jeong4 + jeong5) / (float)currentAssignments;
